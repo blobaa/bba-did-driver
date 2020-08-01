@@ -1,0 +1,35 @@
+{
+  "name": "uni-resolver-driver-did-baa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blobaa/uni-resolver-driver-did-baa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/blobaa/uni-resolver-driver-did-baa#readme",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "lint": "eslint ./ --ext .ts",
+    "fix-lint": "eslint ./ --fix --ext .ts",
+    "testrun": "npm run build && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^12.12.14",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prefer-arrow": "^1.1.7",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@blobaa/baa-did-method-handler-ts": "^0.1.4",
+    "express": "^4.17.1"
+  }
+}
