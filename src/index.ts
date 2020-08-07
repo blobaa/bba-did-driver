@@ -18,7 +18,7 @@ app.get("/1.0/identifiers/:did", async (req, res) => {
     } else {
         url = mainnetUrl;
     }
-// did:bba:t:12a4ed8ec741c14e5adf8e560db261877da5c6a825e79e88de7a8470f52b87ef
+    
 
     try {
         
