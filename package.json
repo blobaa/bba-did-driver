@@ -1,16 +1,16 @@
 {
-  "name": "uni-resolver-driver-did-baa",
+  "name": "bba-did-driver",
   "version": "1.0.0",
   "description": "An universal resolver driver for the bba did method",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blobaa/uni-resolver-driver-did-baa.git"
+    "url": "git+https://github.com/blobaa/bba-did-driver.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/blobaa/uni-resolver-driver-did-baa#readme",
+  "homepage": "https://github.com/blobaa/bba-did-driver#readme",
   "scripts": {
     "build": "rm -rf dist && tsc",
     "start": "node dist/index.js",
