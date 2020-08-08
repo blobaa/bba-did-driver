@@ -51,7 +51,7 @@ This maps your local port 8080 to the docker container.
 Request a DID resolution:
 
 ````
-curl -X GET http://localhost:8080/1.0/identifiers/did:bba:<todo>
+curl -X GET http://localhost:8080/1.0/identifiers/did:bba:t:45e6df15dc0a7d91dcccd24fda3b52c3983a214fb0eed0938321c11ec99403cf
 ````
 
 
@@ -60,11 +60,11 @@ curl -X GET http://localhost:8080/1.0/identifiers/did:bba:<todo>
 Testnet:
 
 ```
-did:bba:t:<>
+did:bba:t:45e6df15dc0a7d91dcccd24fda3b52c3983a214fb0eed0938321c11ec99403cf
 ```
 
 Mainnet:
 
 ```
-did:bba:<>
+did:bba:<tbd>
 ```
