@@ -55,5 +55,5 @@ const isResolutionError = (error: Error): boolean => {
 
 
 app.listen(PORT, () => {
-  console.log(`baa resolver driver running on port ${ PORT }...`);
+  console.log(`bba driver running on port ${ PORT }.`);
 });
