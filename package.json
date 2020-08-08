@@ -14,7 +14,7 @@
   "scripts": {
     "build": "rm -rf dist && tsc",
     "start": "node dist/index.js",
-    "buildStart": "npm run build && node dist/index.js"
+    "buildAndStart": "npm run build && node dist/index.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.7",
