@@ -26,7 +26,7 @@ npm install
 Build and start server:
 
 ````
-npm run buildStart
+npm run buildAndStart
 ````
 
 
@@ -41,7 +41,7 @@ docker build -f ./docker/Dockerfile . -t blobaa/bba-did-driver
 Start container:
 
 ````
-docker container run --publish 8080:8080 --detach --name bba-did-driver bba-did-driver:0.1.0
+docker container run --publish 8080:8080 --detach --name bba-did-driver blobaa/bba-did-driver
 ````
 
 This maps your local port 8080 to the docker container.
