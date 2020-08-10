@@ -26,7 +26,7 @@ npm install
 Build and start server:
 
 ````
-npm run buildAndStart
+npm run build-start
 ````
 
 
@@ -66,5 +66,5 @@ did:bba:t:45e6df15dc0a7d91dcccd24fda3b52c3983a214fb0eed0938321c11ec99403cf
 Mainnet:
 
 ```
-did:bba:<tbd>
+did:bba:47ef0798566073ea302b8178943aaa83f227614d6f36a4d2bcd92993bbed6044
 ```
