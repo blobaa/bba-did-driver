@@ -14,7 +14,7 @@
   "scripts": {
     "build": "rm -rf dist && tsc",
     "start": "node dist/index.js",
-    "buildAndStart": "npm run build && node dist/index.js"
+    "build-start": "npm run build && node dist/index.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.7",
@@ -22,7 +22,7 @@
     "typescript": "^3.7.3"
   },
   "dependencies": {
-    "@blobaa/bba-did-method-handler-ts": "^0.1.7",
+    "@blobaa/bba-did-method-handler-ts": "^0.1.9",
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
   }
