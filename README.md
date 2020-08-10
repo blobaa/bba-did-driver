@@ -46,6 +46,7 @@ docker container run --publish 8080:8080 --detach --name bba-did-driver blobaa/b
 
 This maps your local port 8080 to the docker container.
 
+
 ## Usage
 
 Request a DID resolution:
@@ -68,3 +69,33 @@ Mainnet:
 ```
 did:bba:47ef0798566073ea302b8178943aaa83f227614d6f36a4d2bcd92993bbed6044
 ```
+
+## Trouble Shooting
+
+If you run into problems while resolving DIDs or creating / running the Docker image / container, use the Node.js way to run and debug the driver.
+
+
+## Driver Update
+
+The process of updating the driver involves following steps:
+
+1. Update the driver code / dependencies
+2. Test the driver locally (Node.js and Docker way)
+3. Commit and push changes
+4. There is a Docker pipeline that automatically pulls the newest code and updates the image accordingly on [Docker Hub](https://hub.docker.com/repository/docker/blobaa/bba-did-driver/general)
+5. Create a new GitHub release
+6. Sync Docker tag with GitHub tag
+
+TODO: automate step 5 and 6 with GitHub Actions
+
+
+## Contributing
+
+PRs accepted.
+
+If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+
+## License
+
+[MIT](./LICENSE) © Attila Aldemir
