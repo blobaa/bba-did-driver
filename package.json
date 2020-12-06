@@ -22,7 +22,7 @@
     "typescript": "^3.7.3"
   },
   "dependencies": {
-    "@blobaa/bba-did-method-handler-ts": "^0.1.9",
+    "@blobaa/bba-did-method-handler-ts": "^0.1.13",
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
   }
